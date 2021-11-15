@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0D915704
+/// @DnDArgument : "var" "canAttack"
+canAttack = 0;
+
 /// @DnDAction : YoYo Games.Random.Choose
 /// @DnDVersion : 1
 /// @DnDHash : 409F0EC8

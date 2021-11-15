@@ -1,3 +1,16 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 160B2D04
+/// @DnDArgument : "var" "canAttack"
+if(canAttack == 0)
+{
+	/// @DnDAction : YoYo Games.Common.Exit_Event
+	/// @DnDVersion : 1
+	/// @DnDHash : 26DF252D
+	/// @DnDParent : 160B2D04
+	exit;
+}
+
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 539DBFAE
