@@ -1,8 +1,15 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0D915704
+/// @DnDInput : 3
+/// @DnDArgument : "expr_1" "-1"
+/// @DnDArgument : "expr_2" "-1"
 /// @DnDArgument : "var" "canAttack"
+/// @DnDArgument : "var_1" "pos"
+/// @DnDArgument : "var_2" "isEnemy"
 canAttack = 0;
+pos = -1;
+isEnemy = -1;
 
 /// @DnDAction : YoYo Games.Random.Choose
 /// @DnDVersion : 1
@@ -24,14 +31,10 @@ if(sprite_index == fighterHLT)
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 0DFAAC7B
-	/// @DnDInput : 2
 	/// @DnDParent : 48831A74
 	/// @DnDArgument : "expr" "4"
-	/// @DnDArgument : "expr_1" "2"
 	/// @DnDArgument : "var" "hp"
-	/// @DnDArgument : "var_1" "atk"
 	hp = 4;
-	atk = 2;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -44,14 +47,10 @@ if(sprite_index == fighterMGK)
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 719D9F34
-	/// @DnDInput : 2
 	/// @DnDParent : 47577180
 	/// @DnDArgument : "expr" "3"
-	/// @DnDArgument : "expr_1" "1"
 	/// @DnDArgument : "var" "hp"
-	/// @DnDArgument : "var_1" "atk"
 	hp = 3;
-	atk = 1;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -64,12 +63,8 @@ if(sprite_index == fighterSTR)
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 2A9486E5
-	/// @DnDInput : 2
 	/// @DnDParent : 614EF711
 	/// @DnDArgument : "expr" "1"
-	/// @DnDArgument : "expr_1" "4"
 	/// @DnDArgument : "var" "hp"
-	/// @DnDArgument : "var_1" "atk"
 	hp = 1;
-	atk = 4;
 }
