@@ -7,6 +7,7 @@
     {"id":{"name":"spriteStage","path":"sprites/spriteStage/spriteStage.yy",},"order":5,},
     {"id":{"name":"oFightTracker","path":"objects/oFightTracker/oFightTracker.yy",},"order":7,},
     {"id":{"name":"fighterMGK","path":"sprites/fighterMGK/fighterMGK.yy",},"order":2,},
+    {"id":{"name":"spriteEndScreen","path":"sprites/spriteEndScreen/spriteEndScreen.yy",},"order":10,},
     {"id":{"name":"oFighter","path":"objects/oFighter/oFighter.yy",},"order":0,},
     {"id":{"name":"oCenter","path":"objects/oCenter/oCenter.yy",},"order":5,},
     {"id":{"name":"oSpawnPlayer","path":"objects/oSpawnPlayer/oSpawnPlayer.yy",},"order":4,},
@@ -20,6 +21,7 @@
     {"id":{"name":"spriteCenter","path":"sprites/spriteCenter/spriteCenter.yy",},"order":7,},
     {"id":{"name":"fighterHLT","path":"sprites/fighterHLT/fighterHLT.yy",},"order":1,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":11,},
+    {"id":{"name":"rm_End","path":"rooms/rm_End/rm_End.yy",},"order":1,},
     {"id":{"name":"spriteSpawnPlayer","path":"sprites/spriteSpawnPlayer/spriteSpawnPlayer.yy",},"order":6,},
     {"id":{"name":"spriteSpawnEnemy","path":"sprites/spriteSpawnEnemy/spriteSpawnEnemy.yy",},"order":4,},
     {"id":{"name":"rm_Game","path":"rooms/rm_Game/rm_Game.yy",},"order":0,},
@@ -38,6 +40,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_Game","path":"rooms/rm_Game/rm_Game.yy",},},
+    {"roomId":{"name":"rm_End","path":"rooms/rm_End/rm_End.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
