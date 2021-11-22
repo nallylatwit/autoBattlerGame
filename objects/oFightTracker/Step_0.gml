@@ -61,7 +61,7 @@ if (global.enemyLeader.hp <= 0) {
 		}
 
 
-	if (counter == 30) {
+	if (counter == 15) {
 		// this code ticks once a second
 		playerATK = global.playerLeader.atk;
 		enemyATK = global.enemyLeader.atk;
