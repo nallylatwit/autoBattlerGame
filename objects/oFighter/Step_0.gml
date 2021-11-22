@@ -15,8 +15,8 @@ if(isEnemy > 0 && pos == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1CDF284C
 	/// @DnDParent : 64592895
-	/// @DnDArgument : "speed" "1"
-	speed = 1;
+	/// @DnDArgument : "speed" "3"
+	speed = 3;
 
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
@@ -62,8 +62,8 @@ if(isEnemy < 0 && pos == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3F87F5D4
 	/// @DnDParent : 226863E4
-	/// @DnDArgument : "speed" "1"
-	speed = 1;
+	/// @DnDArgument : "speed" "3"
+	speed = 3;
 
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1

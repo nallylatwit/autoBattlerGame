@@ -7,10 +7,14 @@ counter = 0;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2802BD45
-/// @DnDArgument : "code" "// coinflip for who attacks first$(13_10)$(13_10)$(13_10)$(13_10)turn = choose(0,1);$(13_10)$(13_10)if (turn == 0) {$(13_10)$(13_10)	global.playerHasTurn = 1$(13_10)	show_debug_message("Player's turn!");$(13_10)} else {$(13_10)	$(13_10)	global.enemyHasTurn = 1;$(13_10)	show_debug_message("Enemy's turn!");$(13_10)}"
+/// @DnDArgument : "code" "// coinflip for who attacks first$(13_10)$(13_10)if (global.playerVisitedShop == 1) {$(13_10)	// apply shop upgrades$(13_10)$(13_10)$(13_10)} $(13_10)$(13_10)turn = choose(0,1);$(13_10)$(13_10)if (turn == 0) {$(13_10)$(13_10)	global.playerHasTurn = 1$(13_10)	show_debug_message("Player's turn!");$(13_10)} else {$(13_10)	$(13_10)	global.enemyHasTurn = 1;$(13_10)	show_debug_message("Enemy's turn!");$(13_10)}"
 // coinflip for who attacks first
 
+if (global.playerVisitedShop == 1) {
+	// apply shop upgrades
 
+
+} 
 
 turn = choose(0,1);
 
