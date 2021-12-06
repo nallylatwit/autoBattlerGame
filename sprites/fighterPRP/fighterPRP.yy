@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 249,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 399,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 250,
+  "height": 400,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6cb28a34-8da0-4fd0-ba6d-3f2070a5bf96","path":"sprites/fighterPRP/fighterPRP.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6cb28a34-8da0-4fd0-ba6d-3f2070a5bf96","path":"sprites/fighterPRP/fighterPRP.yy",},"LayerId":{"name":"763e9d0d-0751-41e7-b45f-5ab004d669d0","path":"sprites/fighterPRP/fighterPRP.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"fighterPRP","path":"sprites/fighterPRP/fighterPRP.yy",},"resourceVersion":"1.0","name":"6cb28a34-8da0-4fd0-ba6d-3f2070a5bf96","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"80c4be9d-0b82-4c3b-8aa1-9ab95866ab58","path":"sprites/fighterPRP/fighterPRP.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"80c4be9d-0b82-4c3b-8aa1-9ab95866ab58","path":"sprites/fighterPRP/fighterPRP.yy",},"LayerId":{"name":"3f3ad580-581f-40bd-bbc9-e8ebe40c4688","path":"sprites/fighterPRP/fighterPRP.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"fighterPRP","path":"sprites/fighterPRP/fighterPRP.yy",},"resourceVersion":"1.0","name":"80c4be9d-0b82-4c3b-8aa1-9ab95866ab58","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"fighterPRP","path":"sprites/fighterPRP/fighterPRP.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f58385a9-7847-497e-a083-c061e08d562d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6cb28a34-8da0-4fd0-ba6d-3f2070a5bf96","path":"sprites/fighterPRP/fighterPRP.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6e3a53a8-a2e1-49c0-ab22-4d2a1f6d6fd1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"80c4be9d-0b82-4c3b-8aa1-9ab95866ab58","path":"sprites/fighterPRP/fighterPRP.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 16,
-    "yorigin": 16,
+    "xorigin": 125,
+    "yorigin": 200,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"fighterPRP","path":"sprites/fighterPRP/fighterPRP.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"763e9d0d-0751-41e7-b45f-5ab004d669d0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3f3ad580-581f-40bd-bbc9-e8ebe40c4688","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
